@@ -92,14 +92,17 @@ experiences:
       time: 2024
       company: Mentormate QA Bootcamp
       details: |
-        - Completed intensive QA Bootcamp covering key industry tools and methodologies.
-        - Hands-on training with Postman (API testing), Selenium (UI automation), and JIRA (bug tracking & Agile workflows).
-        - Learned Agile testing practices, QA theory, test case creation, defect reporting, and test planning.
-        - Practiced technical vocabulary and communication in English through presentations and teamwork.
-        - Delivered a presentation on White Box / Black Box testing.
-        - Participated in INTERVIEW TRAINING sessions focused on real-world QA scenarios.
-        - Classes were conducted in English with emphasis on technical documentation.
-        - Collaboratively automated the testing of a Pet Adoption website, applying end-to-end test automation principles.
+        Completed a comprehensive QA Bootcamp covering industry-standard tools and methodologies.
+        Developed hands-on experience with:
+          - Postman (API testing)
+          - Selenium (UI automation)
+          - JIRA (bug tracking & Agile workflows)
+        Gained knowledge of Agile testing practices, QA theory, test case creation, defect reporting, and test planning.
+        Improved technical vocabulary and communication skills in English through presentations and teamwork.
+        Delivered a presentation on White Box / Black Box testing.
+        Participated in INTERVIEW TRAINING sessions focused on real-world QA scenarios.
+        Classes were conducted in English with emphasis on technical documentation.
+        Collaborated with team members to automate the testing of a Pet Adoption website, applying end-to-end test automation principles.
       tags: ["QA Automation", "Postman", "Selenium", "Agile", "Jira", "QA Theory", "Testing", "English", "Interview Training", "Presentation Skills", "Test Automation"]
       icon: "flask"
 projects:
