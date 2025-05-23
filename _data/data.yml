@@ -87,7 +87,7 @@ experiences:
   title: Experiences
   info:
     - role: Head of Development – Smart Beehive System
-      time: 2023 – Early 2024
+      time: 2023-12 – 2024-02
       company: T’Polleke Beekeeping (Family Collaboration – Netherlands)
       details: |
         - Designed and built a **smart, self-regulating beehive** during a visit to the Netherlands to assist a family-owned beekeeping business.
@@ -109,7 +109,7 @@ experiences:
       icon: "cogs"
 
     - role: Co-Captain & Robotics Programmer
-      time: 2022/08 – 2023/02
+      time: 2022-08 – 2023-02
       company: LEGO Robotics Competition – International STEM Challenge
       details: |
         - Programmed an **autonomous robot** to clear obstacle courses using **iterative testing** and **real-time debugging**.

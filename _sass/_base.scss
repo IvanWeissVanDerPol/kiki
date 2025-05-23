@@ -12,13 +12,6 @@ body {
   padding: 1.875rem; // 30px
 }
 
-// Headings
-h1, h2, h3, h4, h5, h6 {
-  color: $text-color;
-  font-weight: 700;
-  margin: 0 0 1rem;
-  line-height: 1.25;
-}
 
 // Links
 a {
@@ -317,3 +310,10 @@ p {
   margin-bottom: 0px;
 }
 
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  line-height: 1.25;
+}
