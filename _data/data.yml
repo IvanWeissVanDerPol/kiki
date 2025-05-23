@@ -12,7 +12,7 @@ sidebar:
   email: KyrianWeiss.vdP@gmail.com
   phone: '+595 985 724 135'
   timezone: America/Asuncion
-  citizenship: Paraguayan and Dutch
+  citizenship: Dutch and Paraguayan
   website: # optional if GitHub Pages available
   linkedin: # optional if LinkedIn created
   github: # optional
@@ -40,45 +40,49 @@ interests:
     - item: Web Development
     - item: Continuous Learning
     - item: API Testing
-
 career-profile:
   title: Career Profile
   summary: |
-    Aspiring Quality Engineer and Data Analyst with hands-on experience in industrial electronics and a strong interest in automating QA processes. Proficient in Python, C++, and various microcontrollers, I bring a methodical approach to problem-solving and a dedication to continuous learning. My career highlights include leading innovative projects that combine my technical skills with a passion for sustainable solutions. I am eager to contribute to a team where I can apply my expertise to real-world challenges and continue to develop my skills in QA automation and data analysis.
+    **Motivated** and **detail-oriented** aspiring **Quality Engineer** and **Data Analyst** with hands-on experience in *industrial electronics*, *embedded systems*, and *test automation*. Skilled in **Python**, **C++**, and microcontroller-based development, with a strong foundation in **quality assurance methodologies** and **data-driven decision-making**.
 
+    I bring a *methodical and analytical mindset* to every challenge, backed by real-world experience leading projects that combine hardware innovation with **sustainable technology**. From **award-winning science fair inventions** to **IoT-driven environmental systems** and collaborative **QA bootcamps**, I’ve developed a passion for building **reliable**, **testable**, and **impactful solutions**.
+
+    I’m eager to contribute to a team where I can apply my skills in **software quality**, **test automation**, and **process improvement** — while continuing to grow technically and professionally in *dynamic, problem-solving environments*.
 
 education:
   title: Education
   info:
     - degree: Industrial Electronics Technician
       university: Paraguayan Institute of Telecommunications (IPT)
-      time: 2022 - 2024
+      time: 2022 – 2024
       details: |
-        - Completed a rigorous technical program under the Faculty of Engineering (FIUNA).
-        - Acquired strong theoretical and practical knowledge across key domains:
-          • Core Electronics: Analog Electronics, Digital Electronics, Power Electronics.
-          • Programming & Automation: C/C++ Programming, Arduino & ESP32 Development, PLCs, Microcontrollers.
-          • Electrical Systems: Electrical Installations, Circuit Analysis, Safety Standards.
-          • Instrumentation & Control: Sensors, Measurement Systems, Feedback and PID Control.
-          • Communications & Networking: Telecommunications Basics, Wi-Fi Networking, IoT Fundamentals.
-          • Supporting Skills: Technical Drawing, Technical English, Project Management, Industrial Maintenance.
-        - Developed an Arduino-powered automated grill project, integrating temperature sensors and motor control, which won 1st place in the IPT Science Fair 2023.
-        - Collaborated on group projects and technical presentations, simulating real-world engineering environments.
-        - Used multimeters, oscilloscopes, and soldering stations extensively during lab sessions and final projects.
+        - Completed a *rigorous technical program* under the Faculty of Engineering's School of Science and Technology (*FIUNA - IPT*).
+        - Gained strong theoretical and hands-on knowledge in:
+
+          • **Core Electronics** – Analog Electronics, Digital Electronics, Power Electronics  
+          • **Programming & Automation** – C/C++ Programming, Arduino & ESP32, PLCs, Microcontrollers  
+          • **Electrical Systems** – Electrical Installations, Circuit Analysis, Safety Standards  
+          • **Instrumentation & Control** – Sensors, Measurement Systems, PID Control  
+          • **Communications & Networking** – Wi-Fi, IoT Fundamentals, Telecom Basics  
+          • **Support Skills** – Technical Drawing, Technical English, Project Management
+        - Designed and built an **automated grill** using Arduino and temperature sensors; won **1st place** in the *IPT Science Fair 2023*.
+        - Frequently used **multimeters**, **oscilloscopes**, and **soldering stations** during labs and final projects.
+        - Collaborated on group-based technical presentations simulating *real-world engineering environments*.
+
     - degree: High School Diploma
       university: Centro Educativo Sagrado Corazón de Jesús
-      time: 2018 - 2021
+      time: 2018 – 2021
       details: |
-        - Specialized in science and technology with a focus on mathematics, physics, and logical reasoning.
-        - Participated in academic competitions and extracurricular activities including computer science, debate, and student council.
-        - Developed early interest in automation and electronics through science fair projects and research work.
+        - Specialized in *science and technology* with emphasis on **mathematics**, **physics**, and **logical reasoning**.
+        - Participated in academic competitions and activities including **computer science**, **debate**, and **student council**.
+        - Developed early passion for **automation and electronics** through science fair projects.
+
     - degree: Primary Education
       university: Centro Educativo Santa Carolina
-      time: 2013 - 2017
+      time: 2013 – 2017
       details: |
-        - Completed foundational education with emphasis on literacy, mathematics, and values-based learning.
-        - Participated in school-wide cultural and science activities, laying the groundwork for future STEM interests.
-
+        - Completed foundational studies with focus on *literacy*, *math*, and *values-based learning*.
+        - Engaged in school-wide **cultural** and **science activities**, setting the foundation for future STEM pursuits.
 experiences:
   title: Experiences
   info:
@@ -86,45 +90,44 @@ experiences:
       time: 2023 – Early 2024
       company: T’Polleke Beekeeping (Family Collaboration – Netherlands)
       details: |
-        - Designed and built a smart, self-regulating beehive during a visit to the Netherlands to assist a family-owned beekeeping business.
-        - Aimed to optimize winter hive temperature to reduce bee energy expenditure on survival and increase honey production in spring.
-        - Used an ESP32 microcontroller to collect and transmit sensor data, and to regulate heat output via an internal heating pad.
-        - Installed four thermostats (one per corner) for distributed thermal readings and a humidity sensor to monitor hive climate conditions.
-        - Collaborated with a senior programmer to evaluate and debate heating control strategies:
+        - Designed and built a **smart, self-regulating beehive** during a visit to the Netherlands to assist a family-owned beekeeping business.
+        - Aimed to optimize **winter hive temperature** to reduce bee energy expenditure on survival and increase honey production in spring.
+        - Used an **ESP32 microcontroller** to collect and transmit sensor data, and to regulate heat output via an internal heating pad.
+        - Installed **four thermostats** (one per corner) for distributed thermal readings and a **humidity sensor** to monitor hive climate conditions.
+        - Collaborated with a **senior programmer** to evaluate and debate heating control strategies:
             - Considered a simple on/off threshold approach vs. dynamic voltage-based regulation.
-            - Ultimately implemented a voltage-controlled system for smoother, more efficient thermal regulation.
-        - Diagnosed multiple hardware issues:
-            - Identified a batch of defective ESP32s (unresponsive to programming or rebooting); escalated to supplier and secured replacements.
-            - Troubleshot a non-functional humidity sensor by testing pin continuity with a multimeter; discovered and replaced a poorly soldered unit.
-        - Encountered Wi-Fi connectivity issues due to hive location; solved by deploying signal repeaters to enable real-time data transmission.
-        - Created a live web dashboard to remotely monitor temperature and humidity metrics inside the hive.
-        - Post-deployment results (tracked over 6 months by the beekeeper):
-            - Significant increase in bee population through winter.
-            - Doubling of honey production in spring compared to previous years.
+            - Ultimately implemented a **voltage-controlled system** for smoother, more efficient thermal regulation.
+        - Diagnosed multiple **hardware issues**:
+            - Identified a batch of **defective ESP32s**; escalated to supplier and secured replacements.
+            - Troubleshot a **non-functional humidity sensor** with a multimeter; discovered a soldering defect and replaced the unit.
+        - Resolved **Wi-Fi connectivity issues** by deploying signal repeaters for **real-time remote monitoring**.
+        - Created a **live web dashboard** to monitor temperature and humidity metrics.
+        - Post-deployment (6-month impact):
+            - **Significant increase** in bee population.
+            - **Doubling of honey production** in the following spring.
       tags: ["IoT", "Embedded Systems", "Python", "Microcontrollers", "Hardware Debugging", "Environmental Sensors", "Automation", "QA Mindset", "Remote Monitoring"]
       icon: "cogs"
 
-
     - role: Co-Captain & Robotics Programmer
-      time: 2022/08-2023/02 
+      time: 2022/08 – 2023/02
       company: LEGO Robotics Competition – International STEM Challenge
       details: |
-        - Programmed an autonomous robot to navigate and clear obstacle courses, using iterative testing and real-time debugging.
-        - Developed a self-sustaining project powered by clean energy, integrating smart environmental design with practical utility.
-        - Led team coordination and promoted core values such as collaboration, respect, and problem-solving under timed constraints.
-        - Contributed to strategy planning and technical execution, balancing performance, reliability, and team input.
+        - Programmed an **autonomous robot** to clear obstacle courses using **iterative testing** and **real-time debugging**.
+        - Designed a **clean-energy project** with smart environmental features.
+        - Promoted **team collaboration**, **problem-solving**, and **value-based leadership** under competition pressure.
+        - Balanced **performance**, **reliability**, and **strategy execution** during technical implementation.
       tags: ["STEM", "Automation", "Robotics", "Testing", "Team Leadership", "Sustainability"]
       icon: "robot"
 
-    - role: Event Staff & Jury Support (Volunteer)
+    - role: Event Staff & Support (Volunteer)
       time: 2023 – 2024
       company: LEGO Robotics Competition – International STEM Challenge
       details: |
-        - Assisted event organization by supervising matches, supporting logistics, and ensuring smooth flow during competition days.
-        - Informally supported the jury by helping coordinate evaluation procedures and facilitating communication between teams and judges.
-        - Acted as a mentor to new participants, providing technical guidance and helping teams understand competition rules and standards.
-        - Demonstrated responsibility, professionalism, and deep understanding of competition structure and team dynamics.
-      tags: ["Event Support", "Mentoring", "QA Mindset", "Process Oversight", "Leadership"]
+        - Supported overall event logistics by **supervising matches**, coordinating **evaluation processes**, and ensuring **smooth competition flow**.
+        - Assisted with additional on-site responsibilities including **distributing water**, **reorganizing chairs**, and **preparing the event space**—contributing to a professional and efficient environment.
+        - Demonstrated strong **accountability**, **professionalism**, and a high level of **organizational awareness** throughout the event lifecycle.
+        - Cultivated a *QA mindset* by identifying operational gaps, proactively supporting teams, and maintaining a standard of excellence in all assigned and unofficial tasks.
+      tags: ["Event Support", "QA Mindset", "Process Oversight", "Leadership"]
       icon: "clipboard-list"
 
 
@@ -132,66 +135,84 @@ experiences:
       time: 2024
       company: Mentormate QA Bootcamp
       details: |
-        Completed a comprehensive QA Bootcamp covering industry-standard tools and methodologies.
-        Developed hands-on experience with:
-          - Postman (API testing)
-          - Selenium (UI automation)
-          - JIRA (bug tracking & Agile workflows)
-        Gained knowledge of Agile testing practices, QA theory, test case creation, defect reporting, and test planning.
-        Improved technical vocabulary and communication skills in English through presentations and teamwork.
-        Delivered a presentation on White Box / Black Box testing.
-        Participated in INTERVIEW TRAINING sessions focused on real-world QA scenarios.
-        Classes were conducted in English with emphasis on technical documentation.
-        Collaborated with team members to automate the testing of a Pet Adoption website, applying end-to-end test automation principles.
+        - Completed a **full-time QA Bootcamp** with a focus on **automation tools** and **Agile methodology**.
+        - Hands-on with:
+            - **Postman** (API Testing)
+            - **Selenium** (UI Automation)
+            - **JIRA** (Agile workflows & bug tracking)
+        - Learned **test case creation**, **defect reporting**, and **QA strategy**.
+        - Presented on **White Box vs. Black Box testing**.
+        - Participated in **mock interviews** and **English-language documentation**.
+        - Automated the end-to-end testing of a **Pet Adoption web app**.
       tags: ["QA Automation", "Postman", "Selenium", "Agile", "Jira", "QA Theory", "Testing", "English", "Interview Training", "Presentation Skills", "Test Automation"]
       icon: "flask"
-
-
-
 projects:
   title: Projects
   intro: >
-    Here are a few notable science fair and personal projects demonstrating a mix of hardware, software, and sustainable solutions.
+    A selection of personal and science fair projects demonstrating technical skills in automation, embedded systems, web development, and real-world problem solving.
   assignments:
     - title: Self-Watering System for Plants
       time: 2022
       details: |
-        - Designed a low-cost, automatic irrigation system using basic electronics.
+        - Designed and built a **low-cost automated irrigation system** using analog soil moisture detection via **electrode probes**.
+        - Controlled a **water pump** through a relay based on moisture sensor input; system activated watering when soil dried beyond threshold.
+        - Applied early **QA analysis** post-build to identify a key limitation—**risk of overwatering**—and proposed integration of additional **environmental sensors** (*humidity, light, temperature*) for smarter decision-making.
+        - Gained foundational experience in **circuit design**, **sensor logic**, and **iterative hardware improvement**.
 
     - title: Automated Grill
       time: 2023
       details: |
-        - Arduino-powered grill that won first prize at a science fair.
+        - Developed a **fully automated gas-powered grill** using an **Arduino Mega**, **matrix keypad**, **LCD interface**, and **AC motor**.
+        - Enabled user control over **cook time**, **grill rotation frequency**, and **target temperature** through a **customizable input interface**.
+        - Integrated an **electrovalve** and **spark ignition system** to automate flame control, with **safety logic** for shutoff upon timer expiration.
+        - Resolved **hardware challenges** during development, including **torque inadequacy** (solved with a higher-power AC motor) and **electrical interference** from the 220V ignition system (resolved via **circuit isolation**).
+        - Conducted **QA testing** to ensure reliability of **timer logic**, **motor rotation control**, and **flame ignition safety** under varied load conditions.
+        - Awarded **1st place** at a *regional science fair* for **engineering innovation** and **automation reliability**.
 
-    - title: Medical Tracker
+    - title: Medical Tracker (Remote Health Monitor)
       time: 2024
       details: |
-        - Built a medical gadget with ESP-32 and web interface for sensor data display.
-        - Quickly learned HTML, Tailwind, and SQL to complete UI development.
-
+        - Created a **remote healthcare monitoring system** for elderly patients using a wearable **ESP32-based bracelet** and a **Raspberry Pi-powered web server** housed in a **3D-printed bear**.
+        - Sensors on the wearable tracked vital signs: **heart rate**, **blood oxygen (SpO₂)**, and **body temperature**; data was transmitted in real time via **JSON over Wi-Fi**.
+        - Raspberry Pi served both as a **local monitor** (via onboard display) and as a host for a **live web dashboard** accessible by doctors and caregivers.
+        - Built a **lightweight UI** using **HTML**, **Tailwind CSS**, and **SQL backend**; rapidly self-learned necessary web technologies to complete project goals.
+        - Designed system to assist *non-specialist caregivers* and reduce workload in *understaffed senior care homes*, inspired by *pandemic-related challenges*.
+        - Applied **QA techniques** including **simulated sensor data testing**, **connectivity fault simulation**, and **user feedback testing** for *non-technical accessibility*.
 volunteer:
   title: Volunteer Work
   info:
-    - role: Girl Scout
+    - role: Girl Scout Guide
+      time: Ongoing
       details: |
-        - Participated in reforestation and community clean-up projects.
-        - Gained strong problem-solving and collaborative skills.
-
+        - Acted as a **troop guide**, holding responsibility for leading peers, ensuring group cohesion, and modeling *integrity*, *discipline*, and *respect*.
+        - Participated in large-scale community initiatives including **reforestation campaigns**, **public space clean-up**, and **sustainability awareness events**—developing a strong sense of *civic duty* and *environmental stewardship*.
+        - Trained to maintain *calm* and make *strategic decisions under pressure* by prioritizing tasks, setting goals clearly, and leading by example.
+        - Practiced **structured conflict resolution** by respecting chains of communication: first engaging directly, then escalating only when necessary—*valuable for maintaining healthy workplace dynamics*.
+        - Developed *strong emotional regulation* and *assertiveness* by focusing on *outcome-driven communication*, avoiding distractions from ego or frustration.
+        - Applied **discipline** and **accountability** through consistent *on-time performance*, *role clarity*, and *task ownership*—*directly transferable to QA workflows*.
+        - Built a *collaborative, inclusive mindset* by offering help to teammates, mentoring younger scouts, and embracing feedback with a *growth-oriented attitude*.
+        - Felt *pride in achievement and commitment*, symbolized by **earning and wearing merit badges** that represent *skill*, *effort*, and *consistency*.
 skills:
   title: Skills & Proficiency
   toolset:
     - name: Programming
       level: 80%
-      tags: [Python, C++, Arduino, ESP-32]
-    - name: QA & Automation
-      level: 60%
-      tags: [Manual Testing, QA Fundamentals, Automation Principles]
+      tags: [Python (Automation & Data), C++ (Embedded Systems), Arduino IDE, ESP32 Firmware]
+    - name: QA & Test Automation
+      level: 70%
+      tags: [Manual Testing, Test Case Design, Selenium (UI Automation), Postman (API Testing), Bug Reporting, QA Fundamentals]
     - name: Web Development
-      level: 50%
-      tags: [HTML, Tailwind, SQL]
-    - name: Electronics & Engineering
+      level: 55%
+      tags: [HTML5, Tailwind CSS, SQL (Data Storage), JSON (Data Format), REST APIs, Lightweight Dashboards]
+    - name: Electronics & Embedded Engineering
       level: 85%
-      tags: [Circuit Design, Embedded Systems, Sustainable Tech]
+      tags: [Analog/Digital Circuit Design, Embedded Systems, Sensor Integration, PID Control, Soldering & Debugging, Sustainable Tech Solutions]
+    - name: Data Analysis & Visualization
+      level: 60%
+      tags: [Pandas, NumPy, Data Cleaning, Matplotlib, Exploratory Data Analysis, Insight Generation]
+    - name: Agile & Collaboration Tools
+      level: 65%
+      tags: [JIRA (Workflow), Git (Version Control), Mock Interviews, QA Documentation, English Proficiency]
 
 
       
