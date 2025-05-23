@@ -16,21 +16,29 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
+    {% for project in projects.assignments %}
     <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+      <div class="project-header">
+        <h3 class="project-title">
+          {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+          {% if project.time %}
+          <span class="project-time">{{ project.time }}</span>
+          {% endif %}
+        </h3>
+        {% if project.tagline %}
+        <p class="project-tagline">{{ project.tagline }}</p>
         {% endif %}
-      </span>
+      </div>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if project.details %}
+      <div class="project-details">
+        {{ project.details | markdownify }}
+      </div>
       {% endif %}
-
     </div><!--//item-->
   {% endfor %}
 

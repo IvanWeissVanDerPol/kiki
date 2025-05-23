@@ -1,50 +1,60 @@
-/* ======= Base ======= */
+/* ======= Base Styles ======= */
+
+// Typography
 body {
-  font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
-  background: $background-color-light;
-  font-size: 15px;
-  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem; // 16px
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $background-color-light;
+  padding: 1.875rem; // 30px
 }
 
+// Headings
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
   color: $text-color;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  line-height: 1.25;
 }
 
+// Links
 a {
   color: $accent-color;
   text-decoration: none;
+  transition: color 0.3s ease;
 
   &:hover {
-    text-decoration: underline;
     color: $accent-color-dark;
+    text-decoration: underline;
   }
 
   &:focus {
-    outline: none;
     color: $accent-color-secondary;
+    outline: none;
   }
 }
 
+// Paragraphs
 p {
+  margin: 0 0 1rem;
   line-height: 1.6;
-  margin-bottom: 1rem;
 }
 
+// Layout
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background: $background-color;
-  max-width: 1200px;
+  max-width: 75rem; // 1200px
   margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background: $background-color;
+  border-radius: 0.625rem; // 10px
   overflow: hidden;
 }
 
+// Sidebar
 .sidebar-wrapper {
   grid-column: span 4;
   order: $sidebar-order;
@@ -128,7 +138,6 @@ p {
   grid-column: span 8;
   order: $resume-order;
   background: $background-color;
-  padding: 60px;
 
   .section-title {
     text-transform: uppercase;
@@ -137,7 +146,6 @@ p {
     color: $theme-color-dark;
     margin-bottom: 25px;
     position: relative;
-    padding-left: 30px;
     
     &::after {
       content: '';
@@ -159,6 +167,19 @@ p {
     }
   }
 
+  // Projects Section
+  .projects-section {
+    .item {
+      margin-bottom: 2.5rem;
+      padding: 1.5rem;
+      background: $background-color;
+      border-radius: 4px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
   .upper-row {
     display: flex;
     justify-content: space-between;
@@ -175,7 +196,7 @@ p {
     font-size: 14px;
     color: $text-grey;
   }
-  .company, .university ,.cert-title, .degree,.job-title ,.upper-row{
+  .company, .university ,.cert-title, .degree,.job-title , .project-title ,.upper-row{
     font-size: 15px; // Increased font size for better visibility
     font-weight: bold; // Added bold weight to emphasize the text
     color: $text-color-secondary;
@@ -286,6 +307,7 @@ p {
 .details{
   margin: 0px;
 }
+
 
 .recommendations-section .item{
   margin-bottom: 30px;
