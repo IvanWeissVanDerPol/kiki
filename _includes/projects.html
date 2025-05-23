@@ -26,16 +26,16 @@
           {{ project.title }}
           {% endif %}
           {% if project.time %}
-          <span class="project-time">{{ project.time }}</span>
+          <span class="time">{{ project.time }}</span>
           {% endif %}
         </h3>
         {% if project.tagline %}
-        <p class="project-tagline">{{ project.tagline }}</p>
+        <p class="tagline">{{ project.tagline }}</p>
         {% endif %}
       </div>
 
       {% if project.details %}
-      <div class="project-details">
+      <div class="details">
         {{ project.details | markdownify }}
       </div>
       {% endif %}
