@@ -46,48 +46,88 @@ career-profile:
   summary: |
     Aspiring Quality Engineer and Data Analyst with hands-on experience in industrial electronics and a strong interest in automating QA processes. Proficient in Python, C++, and various microcontrollers, I bring a methodical approach to problem-solving and a dedication to continuous learning. My career highlights include leading innovative projects that combine my technical skills with a passion for sustainable solutions. I am eager to contribute to a team where I can apply my expertise to real-world challenges and continue to develop my skills in QA automation and data analysis.
 
+
 education:
   title: Education
   info:
     - degree: Industrial Electronics Technician
-      university: Paraguayan Institute of Telecommunications
+      university: Paraguayan Institute of Telecommunications (IPT)
       time: 2022 - 2024
       details: |
-        - Completed coursework in electronics, programming, and project management.
-        - Developed an automated grill powered by Arduino, winning first place in a science fair.
+        - Completed a rigorous technical program under the Faculty of Engineering (FIUNA).
+        - Acquired strong theoretical and practical knowledge across key domains:
+          • Core Electronics: Analog Electronics, Digital Electronics, Power Electronics.
+          • Programming & Automation: C/C++ Programming, Arduino & ESP32 Development, PLCs, Microcontrollers.
+          • Electrical Systems: Electrical Installations, Circuit Analysis, Safety Standards.
+          • Instrumentation & Control: Sensors, Measurement Systems, Feedback and PID Control.
+          • Communications & Networking: Telecommunications Basics, Wi-Fi Networking, IoT Fundamentals.
+          • Supporting Skills: Technical Drawing, Technical English, Project Management, Industrial Maintenance.
+        - Developed an Arduino-powered automated grill project, integrating temperature sensors and motor control, which won 1st place in the IPT Science Fair 2023.
+        - Collaborated on group projects and technical presentations, simulating real-world engineering environments.
+        - Used multimeters, oscilloscopes, and soldering stations extensively during lab sessions and final projects.
     - degree: High School Diploma
       university: Centro Educativo Sagrado Corazón de Jesús
       time: 2018 - 2021
       details: |
-        Specialized in science and technology.
+        - Specialized in science and technology with a focus on mathematics, physics, and logical reasoning.
+        - Participated in academic competitions and extracurricular activities including computer science, debate, and student council.
+        - Developed early interest in automation and electronics through science fair projects and research work.
     - degree: Primary Education
       university: Centro Educativo Santa Carolina
       time: 2013 - 2017
+      details: |
+        - Completed foundational education with emphasis on literacy, mathematics, and values-based learning.
+        - Participated in school-wide cultural and science activities, laying the groundwork for future STEM interests.
 
 experiences:
   title: Experiences
   info:
-    - role: Head of Development
-      time: 2023 - Early 2024
-      company: T’Polleke Beekeeping
+    - role: Head of Development – Smart Beehive System
+      time: 2023 – Early 2024
+      company: T’Polleke Beekeeping (Family Collaboration – Netherlands)
       details: |
-        - Developed a self-regulating beehive using an ESP-32 microcontroller.
-        - Improved hive sustainability and doubled honey production.
-        - Set up Wi-Fi repeaters to ensure remote connectivity.
-        - Collaborated with team members in the Netherlands and Paraguay.
-      tags: ["Embedded Systems", "IoT", "Microcontrollers", "Sustainability", "Teamwork"]
+        - Designed and built a smart, self-regulating beehive during a visit to the Netherlands to assist a family-owned beekeeping business.
+        - Aimed to optimize winter hive temperature to reduce bee energy expenditure on survival and increase honey production in spring.
+        - Used an ESP32 microcontroller to collect and transmit sensor data, and to regulate heat output via an internal heating pad.
+        - Installed four thermostats (one per corner) for distributed thermal readings and a humidity sensor to monitor hive climate conditions.
+        - Collaborated with a senior programmer to evaluate and debate heating control strategies:
+            - Considered a simple on/off threshold approach vs. dynamic voltage-based regulation.
+            - Ultimately implemented a voltage-controlled system for smoother, more efficient thermal regulation.
+        - Diagnosed multiple hardware issues:
+            - Identified a batch of defective ESP32s (unresponsive to programming or rebooting); escalated to supplier and secured replacements.
+            - Troubleshot a non-functional humidity sensor by testing pin continuity with a multimeter; discovered and replaced a poorly soldered unit.
+        - Encountered Wi-Fi connectivity issues due to hive location; solved by deploying signal repeaters to enable real-time data transmission.
+        - Created a live web dashboard to remotely monitor temperature and humidity metrics inside the hive.
+        - Post-deployment results (tracked over 6 months by the beekeeper):
+            - Significant increase in bee population through winter.
+            - Doubling of honey production in spring compared to previous years.
+      tags: ["IoT", "Embedded Systems", "Python", "Microcontrollers", "Hardware Debugging", "Environmental Sensors", "Automation", "QA Mindset", "Remote Monitoring"]
       icon: "cogs"
 
-    - role: Co-Captain
-      time: 2022 - 2023
-      company: Robotics Team
+
+    - role: Co-Captain & Robotics Programmer
+      time: 2022/08-2023/02 
+      company: LEGO Robotics Competition – International STEM Challenge
       details: |
-        - Built a solar-powered bus stop prototype with smart features.
-        - Integrated sustainable materials and accessibility components.
-        - Managed project teams and roles based on skill sets.
-      tags: ["Project Leadership", "Sustainability", "Electronics", "3D Modeling"]
+        - Programmed an autonomous robot to navigate and clear obstacle courses, using iterative testing and real-time debugging.
+        - Developed a self-sustaining project powered by clean energy, integrating smart environmental design with practical utility.
+        - Led team coordination and promoted core values such as collaboration, respect, and problem-solving under timed constraints.
+        - Contributed to strategy planning and technical execution, balancing performance, reliability, and team input.
+      tags: ["STEM", "Automation", "Robotics", "Testing", "Team Leadership", "Sustainability"]
       icon: "robot"
-      
+
+    - role: Event Staff & Jury Support (Volunteer)
+      time: 2023 – 2024
+      company: LEGO Robotics Competition – International STEM Challenge
+      details: |
+        - Assisted event organization by supervising matches, supporting logistics, and ensuring smooth flow during competition days.
+        - Informally supported the jury by helping coordinate evaluation procedures and facilitating communication between teams and judges.
+        - Acted as a mentor to new participants, providing technical guidance and helping teams understand competition rules and standards.
+        - Demonstrated responsibility, professionalism, and deep understanding of competition structure and team dynamics.
+      tags: ["Event Support", "Mentoring", "QA Mindset", "Process Oversight", "Leadership"]
+      icon: "clipboard-list"
+
+
     - role: QA Trainee
       time: 2024
       company: Mentormate QA Bootcamp
@@ -105,6 +145,9 @@ experiences:
         Collaborated with team members to automate the testing of a Pet Adoption website, applying end-to-end test automation principles.
       tags: ["QA Automation", "Postman", "Selenium", "Agile", "Jira", "QA Theory", "Testing", "English", "Interview Training", "Presentation Skills", "Test Automation"]
       icon: "flask"
+
+
+
 projects:
   title: Projects
   intro: >
@@ -150,22 +193,43 @@ skills:
       level: 85%
       tags: [Circuit Design, Embedded Systems, Sustainable Tech]
 
+
+      
 certifications:
   title: Certifications
   list:
-    - name: Introduction to QA
+    - name: Introduction to QA & QA Automation
       start: 2024
       organization: Ivan Weiss Bootcamp
       details: |
-        Learned QA basics and automation potential for improving test processes.
+        Completed a comprehensive, self-paced program designed to transition learners from foundational QA concepts to advanced automation techniques. The curriculum encompassed:
+        - **Quality Assurance Fundamentals**: Understanding QA principles, software development life cycle (SDLC), and various testing methodologies.
+        - **Python Programming**: Gained proficiency in Python, focusing on its application in test automation scenarios.
+        - **Automated Testing Tools**: Hands-on experience with tools like Selenium for browser automation and RESTful API testing.
+        - **Test Case Design & Bug Tracking**: Developed skills in creating effective test cases and managing defects using industry-standard practices.
+        - **Version Control with Git**: Collaborated on projects using Git for version control and code management.
+        Repository: https://github.com/IvanWeissVanDerPol/Introduction-to-QA-and-QA-Automation-Beginner-to-Expert
+
     - name: Data Science with Python
       start: 2024
       organization: Penguin Academy
       details: |
-        5-week course on Python for data cleaning, analysis, and visualization.
-    - name: ISTQB Certification (Planned)
+        Engaged in a 5-week intensive course focusing on Python's role in data science. Key learnings included:
+        - **Data Cleaning & Transformation**: Utilized libraries like Pandas and NumPy to preprocess and clean datasets.
+        - **Data Analysis & Visualization**: Applied statistical methods and created visualizations using Matplotlib to derive insights from data.
+        - **Real-World Applications**: Worked on projects involving real-world datasets to solidify understanding of data science concepts.
+        - **Problem-Solving Skills**: Enhanced analytical thinking and problem-solving abilities pertinent to QA data validation and automation tasks.
+
+    - name: ISTQB Certified Tester – Foundation Level (Planned)
       start: 2025
-      organization: International Software Testing Qualifications Board
+      organization: International Software Testing Qualifications Board (ISTQB)
+      details: |
+        Preparing for the ISTQB Certified Tester Foundation Level (CTFL) v4.0 certification, aiming to solidify foundational knowledge in software testing. Areas of focus include:
+        - **Testing Fundamentals**: Understanding the principles and processes of software testing.
+        - **Test Design Techniques**: Learning various test design techniques to create effective test cases.
+        - **Test Management**: Gaining insights into managing test activities and resources efficiently.
+        - **Tool Support for Testing**: Exploring tools that support testing activities, enhancing efficiency and effectiveness.
+        Certification goal set for 2025 to formalize QA knowledge and enhance professional credibility.
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by Kyrian Weiss
